@@ -1,0 +1,136 @@
+.pagenav {
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  align-items: center;
+}
+.pagenav button {
+  border-radius: 999px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-bottom: 2px solid gray;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+.pagenav button:disabled {
+  cursor: not-allowed;
+  border: none;
+}
+.pagenav button:active {
+  border: none;
+}
+.home {
+  /* background-color: antiquewhite; */
+  font-family: sans-serif;
+}
+.home h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 24px;
+}
+.home ul {
+  margin: auto;
+  width: 90vw;
+  max-width: 900px;
+}
+.home li {
+  list-style: none;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home li .event {
+  width: 70vw;
+  max-width: 500px;
+}
+.home li .actions {
+  margin: 3px;
+  display: flex;
+  height: 50px;
+  gap: 10px;
+}
+.home li .actions button {
+  border-radius: 10px;
+  cursor: pointer;
+}
+.home li .actions .join {
+  background-color: #4d4855;
+  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+  color: white;
+  border: none;
+  padding: 0 17px;
+  font-size: 15px;
+}
+.home .desc {
+  color: #454545;
+  margin: 0;
+}
+.home .content {
+  display: flex;
+  column-gap: 15px;
+  margin-top: 5px;
+}
+.home .content * {
+  display: flex;
+  color: #454545;
+}
+.home .content img {
+  height: 15px;
+  width: 15px;
+}
+.home .content p {
+  margin: 0;
+  gap: 3px;
+}
+.home .eventname {
+  font-weight: bold;
+  margin: 3px;
+}
+.home .pagenav {
+  position: absolute;
+  bottom: 10vh;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
+  align-items: center;
+}
+.home .pagenav button {
+  border-radius: 999px;
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-bottom: 2px solid gray;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+}
+.home .pagenav button:disabled {
+  cursor: not-allowed;
+  border: none;
+}
+.home .pagenav button:active {
+  border: none;
+}
+.home .redmessage {
+  color: red;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: -10px;
+}
+.home .greenmessage {
+  color: green;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: -10px;
+}

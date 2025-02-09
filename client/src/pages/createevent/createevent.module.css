@@ -1,0 +1,57 @@
+.createeventsection {
+  /* background-color: aquamarine; */
+}
+
+.createeventsection .form {
+  font-family: sans-serif;
+  /* background-color: antiquewhite; */
+  margin: auto;
+  width: max-content;
+  width: 90vw;
+  max-width: 800px;
+}
+
+.createeventsection .form h1 {
+  text-align: center;
+  margin-top: 40px;
+}
+.createeventsection .form .inputdiv {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  gap: 5px;
+}
+.createeventsection .form .inputdiv input,
+.createeventsection .form .inputdiv textarea {
+  height: 30px;
+  font-size: 17px;
+  padding-left: 8px;
+  outline: none;
+  /* border: none; */
+}
+.createeventsection .form .inputdiv textarea {
+  height: max-content;
+}
+.createeventsection .form button {
+  display: block;
+  margin: auto;
+  height: 50px;
+  background-color: #4d4855;
+  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  padding: 0 30px;
+  margin-top: 30px;
+}
+.redmessage {
+  font-family: sans-serif;
+  color: red;
+  text-align: center;
+}
+.greenmessage {
+  font-family: sans-serif;
+  color: green;
+  text-align: center;
+}

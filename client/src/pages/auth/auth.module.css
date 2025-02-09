@@ -1,0 +1,88 @@
+.authsection {
+  border-radius: 5px;
+  height: max-content;
+  width: 90vw;
+  max-width: 500px;
+  padding: 20px;
+  display: grid;
+  place-self: center;
+  box-shadow: 3px 8px 21px -4px black;
+}
+.authsection h1 {
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 35px 0;
+}
+.authsection .forminputdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+}
+.authsection .forminputdiv label {
+  font-family: sans-serif;
+}
+.authsection .forminputdiv .inputdiv {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+.authsection .forminputdiv .inputdiv img {
+  padding-left: 8px;
+  height: 25px;
+}
+.authsection .forminputdiv input {
+  height: 30px;
+  font-size: 17px;
+  padding-left: 8px;
+  outline: none;
+  border: none;
+}
+.authsection .content form button {
+  display: block;
+  margin: auto;
+  height: 50px;
+  background-color: #4d4855;
+  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+  color: white;
+  width: 45%;
+  font-size: 23px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+.authsection .content form button:hover {
+  background-image: linear-gradient(147deg, #000000 0%, #4d4855 74%);
+}
+.authsection .content form .redmessage {
+  color: red;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: -10px;
+}
+.authsection .content form .greenmessage {
+  color: green;
+  font-family: sans-serif;
+  text-align: center;
+  margin-bottom: -10px;
+}
+.loginmessage {
+  font-family: sans-serif;
+  text-align: center;
+}
+.loginmessage a {
+  text-decoration: none;
+}
+.loginmessage a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 620px) {
+  .authsection {
+    border-radius: 5px;
+    height: max-content;
+    /* width: 100vw; */
+    padding: 10px;
+    box-shadow: none;
+  }
+}

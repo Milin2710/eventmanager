@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+}
+nav {
+  background-color: #4d4855;
+  background-image: linear-gradient(147deg, #4d4855 0%, #000000 74%);
+  color: white;
+  width: 100vw;
+  display: flex;
+  align-self: baseline;
+}
+nav .content {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-self: baseline;
+  justify-content: space-between;
+}
+nav .logo {
+  padding: 5px 10px;
+  background-color: white;
+}
+nav .logo img {
+  height: 40px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  /* background-color: aqua; */
+  align-items: center;
+  justify-self: end;
+  gap: 40px;
+  padding-right: 20px;
+}
+nav ul li {
+  font-size: 17px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+nav ul li .active {
+  font-weight: bold !important;
+}
+nav ul li .profile {
+  border: 2px solid white;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  transition: 0.3s;
+}
+nav ul li .profile.active {
+  background-color: white;
+  color: black;
+}
+nav ul li .profile:hover {
+  text-decoration: none !important;
+  background-color: white;
+  color: black;
+}
+input[type="date"] {
+  font-family: sans-serif;
+}
