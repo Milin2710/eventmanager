@@ -21,7 +21,7 @@ const upload = multer({ storage: storage });
 // mongoose.connect(process.env.MONGO_URI);
 mongoose
   .connect(
-    "mongodb+srv://milins2710:milinsocin32@socin.mmlzaer.mongodb.net/eventmanager"
+    process.env.MONGO_URI
   )
   .then(() => {
     console.log("Successfully connected to MongoDB!");
